@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .cart {
+  width: 300px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.cart h2 {
+  text-align: center;
+}
+
+.items {
+  list-style-type: none;
+  padding: 0;
+}
+
+.items li {
+  margin-bottom: 10px;
+}
+
+.total {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.checkout {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.checkout:hover {
+  background-color: #0056b3;
+}
+</style>
+<body>
+    <head>
+        <title>Carrinho de Compras</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+      </head>
+      
+        <div class="cart">
+          <h2>Meu Carrinho</h2>
+          <ul class="items">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+          </ul>
+          <div class="total">
+            Total: R$50,00
+          </div>
+          <button class="checkout">Finalizar Compra</button>
+        </div>
+</body>
+</html>
